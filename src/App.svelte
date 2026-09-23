@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import Title from './Title.svelte';
 	import Footer from './Footer.svelte';
@@ -262,27 +261,17 @@
 </div>
 
 <style>
-	:global(*) {
-		box-sizing: border-box;
-	}
+.results {
+	margin-top: 20px;
+}
 
-	:global(body) {
-		margin: 0;
-		font-family:
-			Inter,
-			-apple-system,
-			BlinkMacSystemFont,
-			"Segoe UI",
-			sans-serif;
-		background: #080b14;
-		color: #f8fafc;
-	}
+.info {
+	margin-top: 20px;
+}
 
-	:global(button),
-	:global(input) {
-		font: inherit;
-	}
-
+:global(.footer) {
+	margin-top: 30px;
+}
 	.page {
 		position: relative;
 		min-height: 100vh;
@@ -745,5 +734,3 @@
                  } 
         }         
  </style>
-
-
