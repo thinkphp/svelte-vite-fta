@@ -699,9 +699,6 @@
 		line-height: 1.6;
 	}
 
-	:global(.content > :global(div)) {
-		margin-top: 30px;
-	}
 
 	@media (max-width: 650px) {
 		.page {
